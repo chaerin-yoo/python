@@ -5,7 +5,6 @@ import zipfile
 import xml.etree.ElementTree as et 
 import json
 
-
 crtfc_key = '97e1792c560676d2a4e8d575327b3c68964c771b'
 
 

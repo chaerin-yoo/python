@@ -13,7 +13,6 @@ samsung = corp_list.find_by_corp_name('삼성전자', exactly=True)[0]
 # 연간 연결재무제표 불러오기
 fs = samsung.extract_fs(bgn_de='20190101', fs_tp=('bs','is','cf'))
 
-
 print(fs)
 
 # 엑셀파일로 저장

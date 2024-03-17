@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 # CSV 파일에서 데이터 읽어오기
 df = pd.read_csv('kakaobank_data.csv')
 
